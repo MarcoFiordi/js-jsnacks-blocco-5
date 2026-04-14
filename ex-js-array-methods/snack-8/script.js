@@ -21,3 +21,9 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+function isIdOne(student){
+  return student.id === 1;
+}
+const trovato = students.find(isIdOne);
+console.log(trovato.class);
